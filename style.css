@@ -1,118 +1,134 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 20px;
-}
+        /*onde fica as informações*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 20px;
+        }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    border-radius: 5px;
-}
+        /*titulo do site*/
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+        }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
+        /*navegação */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
 
-nav a:hover {
-    text-decoration: underline;
-}
+        /* navegação e linha*/
+        nav a:hover {
+            text-decoration: underline;
+        }
 
-main {
-    background-color: white;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 5px;
-}
+        /* plano de fundo*/
+        main {
+            background-color: white;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
 
-section {
-    margin-bottom: 30px;
-}
+        /* */
+        section {
+            margin-bottom: 30px;
+        }
 
-h2 {
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
 
-a {
-    color: #4CAF50;
-}
+        a {
+            color: #4CAF50;
+        }
 
-a:hover {
-    text-decoration: underline;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-img {
-    margin-top: 10px;
-    border-radius: 5px;
-    max-width: 100%;
-    height: auto;
-}
+        img {
+            margin-top: 10px;
+            border-radius: 5px;
+            max-width: 100%;
+            height: auto;
+        }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
 
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-}
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
 
-th {
-    background-color: #4CAF50;
-    color: white;
-}
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
 
-form label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
+        form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
 
-form input[type="radio"],
-form input[type="checkbox"] {
-    margin-right: 5px;
-}
+        /* Estilo para alinhar radio e checkbox com label */
+        form label.inline-label {
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            font-weight: normal;
+        }
 
-form input[type="submit"] {
-    margin-top: 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 1rem;
-}
+        form label.inline-label input[type="radio"],
+        form label.inline-label input[type="checkbox"] {
+            margin-right: 8px;
+            margin-top: 0;
+        }
 
-form input[type="submit"]:hover {
-    background-color: #45a049;
-}
+        form input[type="submit"] {
+            margin-top: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-    color: #777;
-    font-size: 0.9rem;
-}
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9rem;
+        }
