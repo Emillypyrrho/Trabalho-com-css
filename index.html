@@ -1,0 +1,107 @@
+<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Primeira Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <!-- Menu de navegação -->
+        <nav>
+            <a href="#">Início</a> |
+            <a href="#">Sobre</a> |
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section>
+            <h2>Sobre o Site</h2>
+            <p>Este é um exemplo de página criada com <strong>HTML</strong>.
+            <br>Estamos aprendendo a criar páginas <em>simples</em> e bem estruturadas.</p>
+        </section>
+
+        <section>
+            <h2>Links Importantes</h2>
+            <p>Para aprender mais, visite o site da 
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
+            </p>
+        </section>
+
+        <!-- Seção com imagem -->
+        <section>
+            <h2>Imagem Exemplo</h2>
+            <p>Abaixo está uma imagem ilustrativa:</p>
+            <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Imagem de exemplo" width="150">
+        </section>
+
+        <!-- Seção com tabela -->
+        <section>
+            <h2>Tabela de Cursos</h2>
+            <p>A tabela abaixo mostra alguns cursos:</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duração</th>
+                        <th>Turno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ciência da Computação</td>
+                        <td>4 anos</td>
+                        <td>Matutino</td>
+                    </tr>
+                    <tr>
+                        <td>Engenharia de Software</td>
+                        <td>5 anos</td>
+                        <td>Noturno</td>
+                    </tr>
+                    <tr>
+                        <td>Sistemas de Informação</td>
+                        <td>4 anos</td>
+                        <td>Integral</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Seção com formulário -->
+        <section>
+            <h2>Formulário de Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email@email.com" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="4" cols="40"></textarea><br><br>
+
+                <label>Gênero:</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">Feminino</label><br><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Quero receber novidades</label><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Meu Site - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
